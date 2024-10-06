@@ -1,0 +1,18 @@
+sudo apt-get update
+python3 -m venv myenv
+source myenv/bin/activate
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py
+
+# Install Mage
+sdo pip3 install mage-ai
+
+# Install Pandas
+ pip3 install pandas
+
+# Install Google Cloud Library
+pip3 install google-cloud
+
+pip3 install google-cloud-bigquery
